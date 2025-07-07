@@ -18,6 +18,11 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Gaming variants
+        gaming: "bg-gradient-to-r from-primary to-neon-blue text-white hover:from-primary/80 hover:to-neon-blue/80 shadow-lg hover:shadow-xl transition-all duration-300",
+        gold: "bg-gradient-to-r from-gold to-yellow-500 text-gold-foreground hover:from-gold/80 hover:to-yellow-500/80 shadow-lg hover:shadow-xl transition-all duration-300",
+        neon: "bg-neon-green text-white hover:bg-neon-green/80 shadow-lg hover:shadow-xl transition-all duration-300",
+        danger: "bg-gaming-red text-white hover:bg-gaming-red/80 shadow-lg hover:shadow-xl transition-all duration-300",
       },
       size: {
         default: "h-10 px-4 py-2",
